@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
-}
+});
 
 const server = app.listen(5000, () => {
   console.log("Server Started, running smoke test");
