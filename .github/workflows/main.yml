@@ -3,7 +3,7 @@ name: CI CD with n8n and GitHub Actions
 on:
     push:
         branches:
-            - main
+            - master
 
 jobs:
     build-and-test:
