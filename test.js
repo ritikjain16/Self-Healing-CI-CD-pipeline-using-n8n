@@ -13,7 +13,7 @@ const server = app.listen(5000, () => {
   http
     .get("http://localhost:5000/", (res) => {
       console.log(`STATUS: ${res.statusCode}`);
-      if (res.statusCode  200) {
+      if (res.statusCode === 200) {
         console.log("Smoke test passed");
         server.close();
         process.exit(0);
