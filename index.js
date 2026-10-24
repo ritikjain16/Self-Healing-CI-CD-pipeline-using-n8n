@@ -1,0 +1,1 @@
+console.log("Hello World! CI CD with n8n and GitHub Actions");

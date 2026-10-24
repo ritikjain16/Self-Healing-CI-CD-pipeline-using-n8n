@@ -1,0 +1,16 @@
+{
+  "name": "ci-cd-with-n8n",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
